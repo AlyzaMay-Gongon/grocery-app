@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { LoaderPageRoutingModule } from './loader-routing.module';
+import { ForgotpwPageRoutingModule } from './forgotpw-routing.module';
 
-import { LoaderPage } from './loader.page';
+import { ForgotpwPage } from './forgotpw.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    LoaderPageRoutingModule
+    ForgotpwPageRoutingModule
   ],
-  declarations: [LoaderPage]
+  declarations: [ForgotpwPage]
 })
-export class LoaderPageModule {}
+export class ForgotpwPageModule {}

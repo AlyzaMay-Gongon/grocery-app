@@ -1,7 +1,46 @@
-ion-button[color="dark"]{
-    text-transform: initial;
-}
-
 ion-content {
-    --background: peachpuff;
+    --ionic-background-color: peachpuff;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.background-pict{
+    height: 100vh;
+    width: 100%;
+    background: url('C:/Users/Alyza/Pictures/app/log.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+ion-card-title{
+    color:#242020;
+    font-size: 30px;
+    text-align: center;
+}
+ion-card-subtitle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#242020;
+    font-size: 12px;
+    text-align: center;
+}
+a{
+        height: 50vh;
+        text-decoration:none;
+        color:blue;
+        font-weight: 300;
+        font-size: 12px;
+    }
+ion-card{
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+ion-item{
+    --ion-item-background:transparent;
+    --border-width:0;
+    --inner-border-width:0;
+    --highlight-color-focused:none;
 }
