@@ -1,0 +1,58 @@
+ion-content{
+    --ion-background-color: #fff;
+}
+
+.background-container{
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: url('C:/Users/Alyza/Pictures/app/home_screen.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+ion-card{
+    text-align: center;
+    background: transparent;
+    box-shadow: none;
+
+
+ion-card-title{
+    margin-top: 320px;
+    font-size: 20px;
+    color: #239b47;
+    font-weight: 400;
+}
+
+ion-card-content{
+    margin-top: 10px;
+    
+    ion-button{
+        width: 180px;
+        height: 40px;
+        --border-radius: 40px;
+        --background: #3c91c9;
+        color:#fff;
+        font-weight:400;
+        text-transform: none;
+        font-size: 20px;
+        }
+
+    }
+}
+
+@media screen and (min-width:500px){
+    .background-filter{
+        height: 100%;
+        width: 100%;
+        background: rgba(235, 228, 198, 0.9);
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+}
