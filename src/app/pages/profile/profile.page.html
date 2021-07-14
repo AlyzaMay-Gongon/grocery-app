@@ -1,0 +1,103 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+<ion-header>
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-button (click)="homepagePage()">
+      <span>&#8249;</span>
+    </ion-button>
+  </ion-buttons>
+  <ion-buttons slot="end">
+      <ion-button color="primary" class="edit">Edit Profile</ion-button>
+  </ion-buttons>
+</ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+
+<ion-grid>
+<div style="height: 100%; display: flex; align-items: center; justify-content: center;">
+<ion-card class="bg-transparent">
+  <ion-row>
+    <ion-col>
+      <b>YOUR QR ID</b>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-thumbnail class="ion-margin-start">
+        <img src="https://img.icons8.com/ultraviolet/452/person-male.png">
+      </ion-thumbnail>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <b>MARKUS</b>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-card>
+        <ion-card-content class="qr">
+          <ion-thumbnail class="ion-margin-start">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png">
+          </ion-thumbnail>
+      </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+      <ion-card>
+        <ion-card-header>
+          <ion-item lines="none" color="none">
+            <ion-thumbnail slot="end">
+              <img src="https://www.iconninja.com/files/863/261/232/printer-print-printing-printout-icon.svg" class="p">
+            </ion-thumbnail>
+            <ion-label>Your QR Code</ion-label>
+          </ion-item>
+          </ion-card-header>
+          <ion-card-content>
+            <p>You may show your QR Code to Grocery Stores for COVID-19 contact tracing.</p>
+          </ion-card-content>
+        </ion-card>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+</div>
+
+</ion-grid>
+
+
+
+
+
+</ion-content>
+
+
+
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom" color="secondary">
+
+    <ion-tab-button (click)="homepagePage()">
+      <ion-label>Home</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="recentsPage()">
+      <ion-label>Recents</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="favoritesPage()">
+      <ion-label>Favorites</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="profilePage()">
+      <ion-label>Profile</ion-label>
+    </ion-tab-button>
+
+  </ion-tab-bar>
+
+  
+</ion-tabs>

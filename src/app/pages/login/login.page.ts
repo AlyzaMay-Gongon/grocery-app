@@ -16,5 +16,9 @@ export class LoginPage implements OnInit {
     this.router.navigate(['home'])
   }
 
+  homepagePage(){
+    this.router.navigate(['homepage'])
+  }
+
 
 }

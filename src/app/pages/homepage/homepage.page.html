@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+<ion-grid>
+
+  <ion-row>
+    <ion-col>
+      <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Grocery Store</ion-card-subtitle>
+        <ion-item lines="none">
+          <ion-thumbnail slot="end">
+            <img src="https://brochure.mu/imgenseigne/b31.jpg">
+          </ion-thumbnail>
+          <ion-label>Saver's Supermarket</ion-label>
+        </ion-item>
+        </ion-card-header>
+        <ion-card-content>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </ion-card-content>
+        <div align="right"><ion-button  color="danger" fill="clear" (click)="recentsPage()">Favorites</ion-button></div>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+<ion-row>
+    <ion-col>
+      <ion-card (click)="store($event)" >
+        <ion-card-header>
+          <ion-card-subtitle>Grocery Store</ion-card-subtitle>
+          <ion-card-title>Shopper's Nest</ion-card-title>
+        </ion-card-header>
+        <div align="right"><ion-button color="danger" fill="clear">Favorites</ion-button></div>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Grocery Store</ion-card-subtitle>
+          <ion-card-title>MIC MAC MIG</ion-card-title>
+        </ion-card-header>
+      
+        <div align="right"><ion-button color="danger" fill="clear">Favorites</ion-button></div>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+
+
+
+</ion-content>
+
+
+
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom" color="secondary">
+
+    <ion-tab-button (click)="homepagePage()">
+      <ion-label>Home</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="recentsPage()">
+      <ion-label>Recents</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="favoritesPage()">
+      <ion-label>Favorites</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="profilePage()">
+      <ion-label>Profile</ion-label>
+    </ion-tab-button>
+
+  </ion-tab-bar>
+
+  
+</ion-tabs>

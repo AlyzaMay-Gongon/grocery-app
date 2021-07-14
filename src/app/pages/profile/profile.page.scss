@@ -1,0 +1,52 @@
+ion-content {
+    --background: #FFE599;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+
+ion-card{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background: transparent;
+    box-shadow: none !important;
+}
+
+ion-thumbnail.ion-margin-start{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    
+}
+
+
+.p{
+    height: 40px;
+    width: 40px;
+}
+
+.qr{
+    padding-top: 30px;
+}
+
+ion-label{
+    padding-bottom: 40px;
+
+}
+
+span{
+    width: 100px;
+    font-size: 25px;
+}
+
+ion-button{
+    text-transform: initial;
+}
+
+ion-label{
+    padding-top: 25px;
+    padding-left: 10px;
+}
